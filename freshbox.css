@@ -105,14 +105,3 @@
 	overflow: hidden;
 }
 
-/* tooltip styling. by default the element to be styled is .tooltip  */
-  .tooltip {
-    display:none;
-    background:transparent url(http://jquerytools.org/media/img/tooltip/black_arrow.png);
-    font-size:12px;
-    height:70px;
-    width:160px;
-    padding:25px;
-    color:#eee;
-  }
-
