@@ -46,7 +46,7 @@
 }
 
 .freshbox .btn-box-close {
-    background: url("http://i.web.com/common/btn-close.png") no-repeat scroll 0 0 transparent;
+    background: url("images/btn-close.png") no-repeat scroll 0 0 transparent;
     height: 18px;
 	width: 18px;
     position: absolute;
@@ -56,52 +56,7 @@
     text-indent: -999em;	
 }
 .freshbox .btn-box-close:hover {
-	background: url("http://i.web.com/common/btn-close-hover.png") no-repeat;
+	background: url("images/btn-close-hover.png") no-repeat;
 }
 
-.freshbox .form-line {
-	padding-bottom:15px;
-}
-
-/* clear element float */
-.freshbox .form-line:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-.freshbox .form-line { *zoom: 1; } /* for IE6 IE7 */
-
-.freshbox .label {
-	float: left;
-    font: 14px/24px 宋体;
-    margin-top: 5px;
-    overflow: hidden;
-    text-align: right;
-    width: 35%
-}
-.freshbox .field {
-	float:left;
-	width: 65%;
-}
-.input {
-    background: url("http://i.web.com/register/register_info_put.gif") repeat-x scroll left top transparent;
-    border: 1px solid #9D9D9C;
-    font-size: 14px;
-    overflow: hidden;
-    padding: 6px 2px;
-    width: 188px;
-}
-.freshbox .msg {
-	display:inline-block;
-    line-height: 22px;
-    margin: 3px 0 -10px;
-}
-.freshbox .box-iframe {
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-}
 
