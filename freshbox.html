@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Freshbox Demo</title>
+<link rel="stylesheet" href="freshbox.css" />
+<script src="jquery-1.7.2.min.js"></script>
+<script src="jquery.tools.min.js"></script>
+<script>
+	$(function () {
+
+		$("#dialog").overlay({
+			close : ".btn-box-close",
+			closeOnClick: false,
+			closeOnEsc: true,
+			closeSpeed: 'fast',
+			effect: 'default',
+			fixed: false,
+			left : "center",
+			top : "center",
+			mask : {
+				color : '#333',
+				loadSpeed : 200,
+				opacity : 0.2
+			},
+			speed: 'normal', // slow,normal,fast
+			target: null, // target element to be overlayed. by default taken from [rel]
+			oneInstance: true,
+			load : true, // automatic load
+			onBeforeLoad:function(e){
+				// do something
+			},
+			onLoad:function(e){
+				// do something
+			},
+			onBeforeClose:function(e){
+				/* if(!window.confirm("确定关闭！"))
+					return false; */
+			},
+			onClose:function(e){
+				// do something
+			}
+		});
+	});
+</script>
+</head>
+<body>
+
+	<!-- dialog begin -->
+	<div id="dialog" class="freshbox">
+		<div class="box-frame">
+			<div class="box-title">
+				<h2>freshbox demo</h2>
+			</div>
+			<div class="box-main">
+				<div style="width:400px;height:200px;line-height:200px;font-size:25px;text-align:center">Freshbox Demo</div>
+			</div>
+		</div>
+	</div>
+	<!-- dialog end -->
+
+</body>
+</html>

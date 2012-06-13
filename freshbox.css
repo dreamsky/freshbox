@@ -1,0 +1,118 @@
+.freshbox { 
+	
+	display: none;
+	
+	/* standard decorations */
+	/* border: 8px solid #666; */
+	
+	/* for modern browsers use semi-transparent color on the border. nice! */
+	/* border: 8px solid rgba(0, 0, 0, 0.2); */
+	
+	/* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	/* semi-transparent background color */
+	background-color: rgba(0, 0, 0, 0.2);
+	/* for ie9 to rewrite the rewrite semi-transparent background color */
+	background-color: transparent\9;
+    padding: 8px;	
+	zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#30000000, endColorstr=#30000000);
+}
+
+.freshbox .box-frame {
+	padding: 10px;
+	border:1px solid #3B5998;
+	background-color: #fff;
+}
+.freshbox .box-title  {}
+.freshbox .box-title h2 {
+	margin: -11px;
+	margin-bottom: 0px;
+	color: #333;
+	background-color:#6D84B4;
+	padding: 5px 10px;
+    border:1px solid #3B5998;
+    border-style: solid;
+    border-width: 1px;
+	font-size: 15px;
+	 background-color:#6D84B4;
+}
+.freshbox .box-main {
+	padding: 50px 30px 40px;
+	overflow: hidden;
+}
+
+.freshbox .btn-box-close {
+    background: url("http://i.web.com/common/btn-close.png") no-repeat scroll 0 0 transparent;
+    height: 18px;
+	width: 18px;
+    position: absolute;
+	top: 16px;
+    right: 16px;
+    text-decoration: none;
+    text-indent: -999em;	
+}
+.freshbox .btn-box-close:hover {
+	background: url("http://i.web.com/common/btn-close-hover.png") no-repeat;
+}
+
+.freshbox .form-line {
+	padding-bottom:15px;
+}
+
+/* clear element float */
+.freshbox .form-line:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.freshbox .form-line { *zoom: 1; } /* for IE6 IE7 */
+
+.freshbox .label {
+	float: left;
+    font: 14px/24px 宋体;
+    margin-top: 5px;
+    overflow: hidden;
+    text-align: right;
+    width: 35%
+}
+.freshbox .field {
+	float:left;
+	width: 65%;
+}
+.input {
+    background: url("http://i.web.com/register/register_info_put.gif") repeat-x scroll left top transparent;
+    border: 1px solid #9D9D9C;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 6px 2px;
+    width: 188px;
+}
+.freshbox .msg {
+	display:inline-block;
+    line-height: 22px;
+    margin: 3px 0 -10px;
+}
+.freshbox .box-iframe {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* tooltip styling. by default the element to be styled is .tooltip  */
+  .tooltip {
+    display:none;
+    background:transparent url(http://jquerytools.org/media/img/tooltip/black_arrow.png);
+    font-size:12px;
+    height:70px;
+    width:160px;
+    padding:25px;
+    color:#eee;
+  }
+
